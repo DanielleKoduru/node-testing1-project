@@ -8,11 +8,11 @@
  */
 function trimProperties(obj) {
   // ✨ implement
-  const newObj = {...obj}
-  for (const property in newObj) {
-    newObj[property] = newObj[property].trim()
+  const newObject = { ...obj }
+  for (const property in newObject) {
+    newObject[property] = newObject[property].trim()
   }
-  return newObj
+  return newObject
 }
 
 /**
@@ -41,7 +41,7 @@ function trimPropertiesMutation(obj) {
  */
 function findLargestInteger(integers) {
   // ✨ implement
-    return Math.max(...integers)
+  return Math.max(...integers)
 }
 
 class Counter {
@@ -98,7 +98,7 @@ class Seasons {
   next() {
     // ✨ implement
     const currentIndex = this.seasons.indexOf(this.currentSeason)
-    if(currentIndex === 3){
+    if (currentIndex === 3) {
       this.currentSeason = this.seasons[0]
       return this.currentSeason
     }
@@ -145,7 +145,7 @@ class Car {
     if (distance > currentRange) {
       this.odometer += currentRange
       this.tank = 0
-    } 
+    }
     else {
       this.odometer += distance
       this.tank -= fuelRequired
@@ -167,7 +167,7 @@ class Car {
    */
   refuel(gallons) {
     // ✨ implement
-    if (this.tank + gallons > this.tankCapacity ){
+    if (this.tank + gallons > this.tankCapacity) {
       this.tank = this.tankCapacity
       return Car
     }
@@ -197,14 +197,14 @@ class Car {
  */
 function isEvenNumberAsync(number) {
   // ✨ implement
-  if(!number || typeof number !== "number"){
+  if (!number || typeof number !== "number") {
     return "number must be a number"
   }
 
-  if(number % 2 === 0){
+  if (number % 2 === 0) {
     return true
   }
-  
+
   return false
 }
 

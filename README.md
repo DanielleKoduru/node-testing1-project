@@ -17,17 +17,16 @@ There are two possible ways to submit your project. Your instructor should have 
 - [ ] Check to see that Codegrade has accepted your git submission.
 
 #### Option B - Pull Request
-
-- [ ] Fork and clone the repository.
-- [ ] Implement your project in a `firstname-lastname` branch.
-- [ ] Create a pull request of `firstname-lastname` against your `main` branch.
-- [ ] Open the assignment in Canvas and submit your pull request.
+- [x] Fork and clone the repository.
+- [x] Implement your project in a `firstname-lastname` branch.
+- [x] Create a pull request of `firstname-lastname` against your `main` branch.
+- [x] Open the assignment in Canvas and submit your pull request.
 
 ### Task 2: Minimum Viable Product
 
-- [ ] For Exercises 1-7 inside `index.js`:
-  - [ ] Implement the function or the class in `index.js`.
-  - [ ] Write the corresponding tests in `index.test.js`.
+- [x] For Exercises 1-7 inside `index.js`:
+  - [x] Implement the function or the class in `index.js`.
+  - [x] Write the corresponding tests in `index.test.js`.
 
 #### Notes
 
